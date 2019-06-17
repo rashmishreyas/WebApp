@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Example.NewTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.449 sec <<< FAILURE!
+beforeTest(Example.NewTest)  Time elapsed: 0.96 sec  <<< FAILURE!
+java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:843)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
+	at Example.NewTest.beforeTest(NewTest.java:20)
+

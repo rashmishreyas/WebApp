@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="Example.NewTest" time="0.962" errors="0" skipped="2">
+  <properties>
+    <property name="ViewClient_Keyboard.NumIndicators" value="3"/>
+    <property name="DISPLAY" value="needs-to-be-defined"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="MINGW_CHOST" value="x86_64-w64-mingw32"/>
+    <property name="LOGONSERVER" value="\\SLT-P-ADSV002"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="ACLOCAL_PATH" value="C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal"/>
+    <property name="MSYSTEM" value="MINGW64"/>
+    <property name="ViewClient_Client_ID" value="AgAAAERFTExEABBKgDeywE9QSDI="/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PWD" value="C:/Users/UX011746/Jenkins"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="ViewClient_Keyboard.KeyDelayToRepeat" value="1"/>
+    <property name="PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="=::" value="::\"/>
+    <property name="ViewClient_Machine_FQDN" value="TechMahindra.com"/>
+    <property name="USERDOMAIN" value="TEN"/>
+    <property name="ORIGINAL_PATH" value="C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\UX011746\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\Common Files\ThinPrint;C:\Program Files\Git\cmd;C:\Program Files (x86)\Sennheiser\SoftphoneSDK;C:\Program Files\Java\jdk1.8.0_171\bin"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="PKG_CONFIG_PATH" value="C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig"/>
+    <property name="ViewClient_Keyboard.KeyRepeatRate" value="31"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="JOB_NAME" value="Test"/>
+    <property name="COMPUTERNAME" value="TP5VDIDEVTCM623"/>
+    <property name="ViewClient_Broker_DomainName" value="TEN"/>
+    <property name="SYSTEMDRIVE" value="C:"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="ViewClient_LoggedOn_FQDN" value="TechMahindra.com"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="CONFIG_SITE" value="C:/Program Files/Git/mingw64/etc/config.site"/>
+    <property name="ViewClient_Launch_ID" value="SLT-POD05-DEVTCM"/>
+    <property name="user.name" value="UX011746"/>
+    <property name="ViewClient_Mouse.Identifier" value="256"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 62 Stepping 7, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\UX011746\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Test/1/display/redirect?page=changes"/>
+    <property name="MSYSTEM_CARCH" value="x86_64"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="ViewClient_Broker_Tunnel_URL" value="https://VDI-t.thomsonreuters.com:443"/>
+    <property name="INFOPATH" value="C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-Test-1"/>
+    <property name="TERM" value="xterm"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="PATH" value="C:\Program Files\Java\jdk1.8.0_171/bin;C:\Users\UX011746\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\UX011746\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\Common Files\ThinPrint;C:\Program Files\Git\cmd;C:\Program Files (x86)\Sennheiser\SoftphoneSDK;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl"/>
+    <property name="ViewClient_Protocol" value="PCOIP"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\UX011746\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test C:\Users\UX011746\.jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Users\UX011746\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\UX011746\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 61931"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ViewClient_Displays.TopologyV2" value="{1366,768,0,0,32,1,96}"/>
+    <property name="JENKINS_SERVER_COOKIE" value="cb62d29cb6835309"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="PLINK_PROTOCOL" value="ssh"/>
+    <property name="ViewClient_Keyboard.NumKeys" value="101"/>
+    <property name="ViewClient_Machine_Name" value="INBASDLP06002"/>
+    <property name="MANPATH" value="C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man"/>
+    <property name="java.io.tmpdir" value="C:\Users\UX011746\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\UX011746\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="SYSTEMROOT" value="C:\windows"/>
+    <property name="line.separator" value="
+"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Test/1/"/>
+    <property name="SHLVL" value="1"/>
+    <property name="ViewClient_Broker_UserName" value="ux011746"/>
+    <property name="M2_HOME" value="C:\Users\UX011746\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test"/>
+    <property name="ViewClient_Broker_GatewayType" value="SG"/>
+    <property name="ViewClient_Displays.Number" value="1"/>
+    <property name="ViewClient_LoggedOn_Domainname" value="TECHMAHINDRA"/>
+    <property name="COMMONPROGRAMFILES" value="C:\Program Files\Common Files"/>
+    <property name="ViewClient_IP_Address" value="10.23.148.23"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="NSS_DEFAULT_DB_TYPE" value="sql"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="ViewClient_LoggedOn_Username" value="AX00506739"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="cb62d29cb6835309"/>
+    <property name="ViewClient_Keyboard.Language" value="1033"/>
+    <property name="PS1" value="\[\033]0;$TITLEPREFIX:C:/Users/UX011746/Jenkins\007\]\n\[\033[32m\]\u@\h \[\033[35m\]MINGW64 \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ "/>
+    <property name="ViewClient_Broker_GatewayLocation" value="External"/>
+    <property name="MAVEN_HOME" value="C:\Users\UX011746\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="ViewClient_Displays.SystemDpi" value="96"/>
+    <property name="maven3.interceptor.common" value="C:\Users\UX011746\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="ViewClient_Type" value="Windows"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="ViewClient_Keyboard.Layout" value="00000409"/>
+    <property name="ORIGINAL_TEMP" value="C:/Users/UX011746/AppData/Local/Temp"/>
+    <property name="ViewClient_TZID" value="Asia/Calcutta"/>
+    <property name="ViewClient_MAC_Address" value="A4-4C-C8-61-45-EE"/>
+    <property name="ViewClient_Broker_Tunneled" value="true"/>
+    <property name="HOMEPATH" value="\Users\UX011746"/>
+    <property name="ViewClient_Machine_Domain" value="TECHMAHINDRA"/>
+    <property name="TMPDIR" value="C:\Users\UX011746\AppData\Local\Temp"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="ViewClient_Broker_Remote_IP_Address" value="10.25.0.221"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="1"/>
+    <property name="maven3.interceptor" value="C:\Users\UX011746\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\UX011746\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test/bin;C:\Program Files\Java\jdk1.8.0_171/bin;C:\Program Files\Java\jdk1.8.0_171/bin;C:\Users\UX011746\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\UX011746\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\Common Files\ThinPrint;C:\Program Files\Git\cmd;C:\Program Files (x86)\Sennheiser\SoftphoneSDK;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Test/"/>
+    <property name="MINGW_PACKAGE_PREFIX" value="mingw-w64-x86_64"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Test/1/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\UX011746\.jenkins"/>
+    <property name="BUILD_ID" value="1"/>
+    <property name="TEMP" value="C:\Users\UX011746\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="MSYSTEM_PREFIX" value="C:/Program Files/Git/mingw64"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="3e07"/>
+    <property name="ViewClient_Keyboard.Type" value="4"/>
+    <property name="HUDSON_HOME" value="C:\Users\UX011746\.jenkins"/>
+    <property name="COMSPEC" value="C:\windows\system32\cmd.exe"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\UX011746\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test/bin"/>
+    <property name="ViewClient_Broker_URL" value="https://vdi-t.thomsonreuters.com:443"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="TEN"/>
+    <property name="ViewClient_Displays.Topology" value="{1366,768,0,0,32,1}"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_171"/>
+    <property name="SHELL" value="C:\Program Files\Git\usr\bin\bash.exe"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="PROGRAMFILES" value="C:\Program Files"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\UX011746"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Test/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\UX011746"/>
+    <property name="USERNAME" value="UX011746"/>
+    <property name="_" value="C:/ProgramData/Oracle/Java/javapath_target_5121718/java"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERDNSDOMAIN" value="TEN.THOMSONREUTERS.COM"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\UX011746\workspace\WebApp"/>
+    <property name="maven.conf" value="C:\Users\UX011746\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test\conf"/>
+    <property name="SSH_ASKPASS" value="C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\UX011746\AppData\Local\Temp"/>
+    <property name="UATDATA" value="C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="MINGW_PREFIX" value="C:/Program Files/Git/mingw64"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="ViewClient_Keyboard.SubType" value="0"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.class.path" value="C:\Users\UX011746\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Users\UX011746\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test\boot\plexus-classworlds-2.6.0.jar;C:\Users\UX011746\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="ViewClient_Broker_DNS_Name" value="slt-p-hcon005.ten.thomsonreuters.com"/>
+    <property name="ViewClient_Client_Version" value="4.6.1-6748947"/>
+    <property name="WORKSPACE" value="C:\Users\UX011746\.jenkins\workspace\Test"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="ViewClient_Keyboard.NumFuncKeys" value="12"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="ViewClient_Language" value="en-US"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="ViewClient_Broker_Farm_ID" value="slt-pod05-devtcm"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_171/bin"/>
+    <property name="ViewClient_Windows_Timezone" value="India Standard Time"/>
+    <property name="user.country" value="US"/>
+    <property name="ViewClient_Keyboard.ScanCodeMode" value="1"/>
+    <property name="MSYSTEM_CHOST" value="x86_64-w64-mingw32"/>
+    <property name="maven.home" value="C:\Users\UX011746\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test"/>
+    <property name="EXEPATH" value="C:\Program Files\Git"/>
+    <property name="ORIGINAL_TMP" value="C:/Users/UX011746/AppData/Local/Temp"/>
+    <property name="ViewClient_Launch_SessionType" value="DESKTOP"/>
+    <property name="JOB_BASE_NAME" value="Test"/>
+    <property name="HOSTNAME" value="TP5VDIDEVTCM623"/>
+    <property name="HOME" value="C:\Users\UX011746"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="WINDIR" value="C:\windows"/>
+    <property name="ViewClient_Mouse.NumButtons" value="3"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="Example.NewTest" name="beforeTest" time="0.96">
+    <failure message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:843)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:149)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at Example.NewTest.beforeTest(NewTest.java:20)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@299a06ac
+</system-out>
+  </testcase>
+  <testcase classname="Example.NewTest" name="testEasy" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="Example.NewTest" name="afterTest" time="0.002">
+    <skipped/>
+  </testcase>
+</testsuite>
